@@ -7,7 +7,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item active">
-                    <button id="login_Button" type="button" class="btn btn-success">Login</button>
+                    <button id="login_Button" type="button" class="btn btn-success" routerLink="/login">Login</button>
                 </li>
             </ul>
         </div>
@@ -21,16 +21,30 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img id="carousel_images" src="https://i.pinimg.com/originals/bb/7a/00/bb7a00b1cdccd419d6bad81cc2707669.jpg " class="d-block w-100 " alt="... ">
+            <div class="carousel-item active" style="background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('https://images.hindustantimes.com/img/2022/05/20/1600x900/Bhool_Bhulaiyaa_2_1653020103317_1653020129793.jpg ');
+            overflow-x: hidden;">
+                <div class="container" id="details">
+                    <h1>Bhool Bhulaiyaa 2</h1>
+                    <h6>In a mansion of Bhawanigarh, 2007: priests confine a malevolent spirit,Manjulika, who is hell-bent on
+                        <br>attacking the family's daughter-in-law Anjulika, to a room. The family desert the mansion for their safety. </h6>
+                    <button id="watch_Button" type="button" class="btn btn-success rounded-pill"><img style="padding-bottom: 2%;" src="assets/images/play-button.png">  Watch now</button>
+                </div>
             </div>
-            <div class="carousel-item ">
-                <img id="carousel_images" src="https://www.wallpaperkiss.com/wimg/b/171-1719865_big.jpg " class="d-block w-100 " alt="... ">
+
+            <div class="carousel-item " style="background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQa82SXtuPjaBo68E43Ii7t7YL6uXHCOslWuO5sb_gyhlwHj66UKt4gzupamC4fQ_ns0P6oO9ISQZ4usg1NCQVj7DsuyEson1DE4N1JsRWvmsu-T8-nMcEoSN58qw2JgImdc1JiNqMxfYGOK_hlsKvhbap9A.jpg?r=e2c ');
+            overflow-x: hidden;">
+                <h1>Stranger Things</h1>
             </div>
-            <div class="carousel-item ">
-                <img id="carousel_images" src="https://s1.1zoom.me/big3/142/351701-admin.jpg " class="d-block w-100 " alt="... ">
+            <div class="carousel-item " style="background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('https://images.hindustantimes.com/img/2022/04/22/1600x900/jersey_movie_review_1650599195424_1650599195595.jpg ');
+            overflow-x: hidden;">
+                <h1>Jersey</h1>
+            </div>
+            <div class="carousel-item " style="background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('https://m.media-amazon.com/images/M/MV5BNzZhYThmOTAtMzJkNi00MjQ0LWE0ZWItYzRhZWU5Njc3ZmFkXkEyXkFqcGdeQWpnYW1i._V1_.jpg');
+            overflow-x: hidden;">
+                <h1>Morbius</h1>
             </div>
         </div>
     </div>

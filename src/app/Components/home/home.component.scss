@@ -12,11 +12,33 @@
 }
 
 .carousel-item {
-    height: 85vh;
-    background-image: radial-gradient(rgba(0, 0, 0, 0.356), black, black);
+    height: 90vh;
 }
 
 .navbar {
+    border: 0;
+    box-shadow: none;
+}
+
+h1 {
+    background-color: none;
+    color: white;
+}
+
+h6 {
+    background-color: none;
+    color: rgb(173, 165, 165);
+}
+
+#details {
+    margin-top: 23%;
+}
+
+#watch_Button {
+    background-color: rgba(131, 200, 58, 255);
+    color: black;
+    border-radius: 20%;
+    font-size: x-large;
     border: 0;
     box-shadow: none;
 }
